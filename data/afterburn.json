@@ -16,7 +16,7 @@
     {"app":"Afterburn","store":"App Store","task":"Проверить название и подготовить карточку для App Store","status":"Ждёт","owner":"Вы","note":"нужна финальная проверка бренда"}
   ],
   "links": [
-    {"app":"Afterburn","kind":"Тест","title":"Открыть тестовый сайт и макеты","url":"https://vladimir761867.github.io/Afterburn-Skies/"},
+    {"app":"Afterburn","kind":"Тест","title":"Играть первый вылет","url":"https://vladimir761867.github.io/Afterburn-Skies/game/"},
     {"app":"Afterburn","kind":"Макеты","title":"Интерактивные макеты","url":"https://vladimir761867.github.io/Afterburn-Skies/mockups/"},
     {"app":"Afterburn","kind":"Git","title":"Репозиторий Afterburn-Skies","url":"https://github.com/Vladimir761867/Afterburn-Skies"},
     {"app":"Afterburn","kind":"Документ","title":"Дизайн игры","url":"https://github.com/Vladimir761867/Afterburn-Skies/blob/main/docs/game-design.md"},
