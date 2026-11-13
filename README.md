@@ -10,5 +10,6 @@
 - `tools/build_commits.py` — пересобирает журнал изменений из трёх репозиториев: `python3 tools/build_commits.py <winner-app> <football-cage> <path>`.
 - `.github/workflows/refresh-commits.yml` — раз в день и вручную обновляет `data/commits.json` из GitHub-репозиториев `winner-app`, `football-cage` и `path`.
 - `img/` — кадры и иконки игр, `vendor/d3.min.js` — библиотека графиков.
+- `work-materials/` — рабочие документы с фильтром по проектам; сейчас там план офлайн- и онлайн-режимов.
 
 Журнал коммитов обновляется автоматически раз в день GitHub Actions; задачи, график и ссылки можно править в JSON вручную. История коммитов этого репозитория хранит всю динамику готовности.
