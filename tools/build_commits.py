@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Собирает data/commits.json из git-истории трёх репозиториев.
-Использование: python3 tools/build_commits.py WINNER_APP_DIR FOOTBALL_DIR PATH_DIR
+"""Собирает data/commits.json из git-истории репозиториев.
+Использование: python3 tools/build_commits.py WINNER_APP_DIR FOOTBALL_DIR PATH_DIR [AFTERBURN_DIR]
 Время пишется по Москве (UTC+3)."""
 import subprocess, json, sys, datetime, os
 MSK = datetime.timezone(datetime.timedelta(hours=3))
@@ -17,6 +17,7 @@ store_words = ('RuStore', 'Слияние', 'чек-лист', 'Android', 'relea
 def kind(s): return 'Магазин и сборка' if any(w in s for w in store_words) else 'Игра'
 rows, seen = [], set()
 w, f, p = sys.argv[1:4]
+a = sys.argv[4] if len(sys.argv) > 4 else None
 for h, t, s in log(w, '--all'):
     if h in seen: continue
     seen.add(h)
@@ -29,6 +30,9 @@ for h, t, s in log(f, 'origin/main'):
 for h, t, s in log(p, 'origin/main'):
     if s.startswith('Merge pull request'): continue
     rows.append(row(h, t, s, 'Рядом', kind(s)))
+if a:
+    for h, t, s in log(a, 'origin/main'):
+        rows.append(row(h, t, s, 'Afterburn', kind(s)))
 rows.sort(key=lambda r: r['time'])
 out = os.path.join(os.path.dirname(__file__), '..', 'data', 'commits.json')
 json.dump(rows, open(out, 'w'), ensure_ascii=False)

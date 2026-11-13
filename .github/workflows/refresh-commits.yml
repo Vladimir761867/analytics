@@ -2,8 +2,10 @@ name: Обновить историю разработки
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
   schedule:
-    - cron: "0 4 * * *"
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: write
@@ -27,9 +29,10 @@ jobs:
           git clone --filter=blob:none --no-checkout https://github.com/Vladimir761867/winner-app.git source/winner-app
           git clone --filter=blob:none --no-checkout https://github.com/Vladimir761867/football-cage.git source/football-cage
           git clone --filter=blob:none --no-checkout https://github.com/Vladimir761867/path.git source/path
+          git clone --filter=blob:none --no-checkout https://github.com/Vladimir761867/Afterburn-Skies.git source/afterburn-skies
 
       - name: Пересобрать журнал коммитов
-        run: python tools/build_commits.py source/winner-app source/football-cage source/path
+        run: python tools/build_commits.py source/winner-app source/football-cage source/path source/afterburn-skies
 
       - name: Сохранить изменения
         shell: bash
