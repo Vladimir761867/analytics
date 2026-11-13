@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Собирает data/commits.json из git-истории репозиториев.
-Использование: python3 tools/build_commits.py WINNER_APP_DIR FOOTBALL_DIR PATH_DIR [AFTERBURN_DIR]
+Использование: python3 tools/build_commits.py WINNER_APP_DIR FOOTBALL_DIR PATH_DIR [AFTERBURN_DIR] [WALK_DIR]
 Время пишется по Москве (UTC+3)."""
 import subprocess, json, sys, datetime, os
 MSK = datetime.timezone(datetime.timedelta(hours=3))
@@ -18,6 +18,7 @@ def kind(s): return 'Магазин и сборка' if any(w in s for w in stor
 rows, seen = [], set()
 w, f, p = sys.argv[1:4]
 a = sys.argv[4] if len(sys.argv) > 4 else None
+wk = sys.argv[5] if len(sys.argv) > 5 else None
 for h, t, s in log(w, '--all'):
     if h in seen: continue
     seen.add(h)
@@ -33,6 +34,9 @@ for h, t, s in log(p, 'origin/main'):
 if a:
     for h, t, s in log(a, 'origin/main'):
         rows.append(row(h, t, s, 'Afterburn', kind(s)))
+if wk:
+    for h, t, s in log(wk, 'origin/main'):
+        rows.append(row(h, t, s, 'Прогулка', kind(s)))
 rows.sort(key=lambda r: r['time'])
 out = os.path.join(os.path.dirname(__file__), '..', 'data', 'commits.json')
 json.dump(rows, open(out, 'w'), ensure_ascii=False)

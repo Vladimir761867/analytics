@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><defs><g id="p-eye-joy"><path d="M-9 3 Q0 -9 9 3" fill="none" stroke="#2E2346" stroke-width="4.6" stroke-linecap="round" /></g>
+<symbol id="ch-dog-joy" viewBox="0 0 200 200"><use href="#ch-dog-body" width="200" height="200" /><use href="#p-blush" transform="translate(62 100) scale(1.0)" /><use href="#p-blush" transform="translate(138 100) scale(1.0)" /><use href="#p-eye-joy" transform="translate(76 80) scale(1.0)" /><use href="#p-eye-joy" transform="translate(124 80) scale(1.0)" /><use href="#p-grin" transform="translate(100 114) scale(1.0)" /></symbol>
+<g id="p-blush"><ellipse rx="8.5" ry="5" fill="#FF8FA8" opacity=".55" /></g>
+<symbol id="ch-dog-body" viewBox="0 0 200 200"><g stroke="#4B3A6B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+<path d="M138 162 Q178 156 170 118 Q166 106 156 114 Q160 140 132 148Z" fill="#FFE2B5" />
+<ellipse cx="100" cy="158" rx="44" ry="34" fill="#FFF0D6" />
+<ellipse cx="100" cy="168" rx="24" ry="19" fill="#fff" stroke="none" />
+<ellipse cx="80" cy="188" rx="15" ry="9" fill="#FFF0D6" /><ellipse cx="120" cy="188" rx="15" ry="9" fill="#FFF0D6" />
+<path d="M60 126 Q100 146 140 126 Q144 138 138 145 Q100 162 62 145 Q56 138 60 126Z" fill="#7FDCC0" />
+<path d="M116 144 Q126 158 130 172 Q120 174 110 170 Q112 156 108 147Z" fill="#6CCBA4" />
+<path d="M100 141 l3.5 7 7.5 1 -5.5 5 1.5 7.5 -7 -3.6 -7 3.6 1.5 -7.5 -5.5 -5 7.5 -1Z" fill="#FFE27A" stroke-width="2.5" />
+<path d="M50 58 Q26 70 30 112 Q34 128 50 120 Q62 98 68 68Z" fill="#F4B98C" />
+<path d="M150 58 Q174 70 170 112 Q166 128 150 120 Q138 98 132 68Z" fill="#F4B98C" />
+<ellipse cx="100" cy="84" rx="56" ry="50" fill="#FFF0D6" />
+<ellipse cx="125" cy="76" rx="19" ry="17" fill="#FADBB4" stroke="none" />
+<path d="M92 36 Q98 24 108 30" fill="none" />
+<ellipse cx="100" cy="108" rx="25" ry="17" fill="#fff" stroke="none" />
+<path d="M90 98 Q100 92 110 98 Q108 106 100 107 Q92 106 90 98Z" fill="#4B3A6B" />
+<ellipse cx="96" cy="97.5" rx="3" ry="1.6" fill="#fff" stroke="none" opacity=".7" />
+</g></symbol>
+<g id="p-grin"><path d="M-8 -2 Q0 13 8 -2 Q0 1 -8 -2Z" fill="#8C3B5E" stroke="#4B3A6B" stroke-width="3" stroke-linejoin="round" /><path d="M-3.8 5.2 Q0 3 3.8 5.2 Q2.2 8.4 0 8.4 Q-2.2 8.4 -3.8 5.2Z" fill="#FF8FA8" /></g>
+<radialGradient id="g" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#d9ccff"/><stop offset="1" stop-color="#9b86e6"/></radialGradient></defs><rect width="256" height="256" rx="58" fill="url(#g)"/><path d="M0 200 Q60 150 128 190 T256 185 V256 H0Z" fill="#9ee6c3"/><g fill="#ffe27a"><circle cx="40" cy="60" r="5"/><circle cx="215" cy="45" r="4"/><circle cx="200" cy="110" r="3"/><circle cx="60" cy="120" r="3"/></g><use href="#ch-dog-joy" x="28" y="30" width="200" height="200"/></svg>

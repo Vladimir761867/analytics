@@ -1,14 +1,15 @@
 # GFG: панель всех проектов
 
-Сайт с готовностью проектов «Победитель», «Победитель Junior», «Дворовый футбол», «Рядом» и «Форсаж Небес» к RuStore, Google Play и App Store. Светлая и тёмная тема, фильтры задач, графики активности.
+Сайт с готовностью проектов «Победитель», «Победитель Junior», «Дворовый футбол», «Рядом», «Форсаж Небес» и «У каждого — своё» к RuStore, Google Play и App Store. Светлая и тёмная тема, фильтры задач, графики активности.
 
 - `index.html` — сайт (чистый HTML, без сборки). Данные читает из `data/*.json`.
 - `data/tasks.json` — задачи по играм и магазинам (статус Готово, Сделать, Ждёт; исполнитель Вы или Claude).
 - `data/commits.json` — журнал изменений игр (из репозитория winner-app).
 - `data/schedule.json` — график работ (факт и оценка).
 - `data/links.json` — ссылки на тест, git и документы.
+- `data/afterburn.json`, `data/walk.json` — задачи, ссылки и график отдельных проектов («Форсаж Небес», «У каждого — своё»), подмешиваются к общим данным.
 - `tools/build_commits.py` — пересобирает журнал изменений из трёх репозиториев: `python3 tools/build_commits.py <winner-app> <football-cage> <path>`.
-- `.github/workflows/refresh-commits.yml` — обновляет журнал при push, вручную и каждые 15 минут из GitHub-репозиториев `winner-app`, `football-cage`, `path` и `Afterburn-Skies`.
+- `.github/workflows/refresh-commits.yml` — обновляет журнал при push, вручную и каждые 15 минут из GitHub-репозиториев `winner-app`, `football-cage`, `path`, `Afterburn-Skies` и `To-Each-Their-Own-A-Big-Walk`.
 - `img/` — кадры и иконки игр, `vendor/d3.min.js` — библиотека графиков.
 - `work-materials/` — рабочие документы с фильтром по проектам; сейчас там план офлайн- и онлайн-режимов.
 

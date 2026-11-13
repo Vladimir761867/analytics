@@ -30,9 +30,10 @@ jobs:
           git clone --filter=blob:none --no-checkout https://github.com/Vladimir761867/football-cage.git source/football-cage
           git clone --filter=blob:none --no-checkout https://github.com/Vladimir761867/path.git source/path
           git clone --filter=blob:none --no-checkout https://github.com/Vladimir761867/Afterburn-Skies.git source/afterburn-skies
+          git clone --filter=blob:none --no-checkout https://github.com/Vladimir761867/To-Each-Their-Own-A-Big-Walk.git source/walk
 
       - name: Пересобрать журнал коммитов
-        run: python tools/build_commits.py source/winner-app source/football-cage source/path source/afterburn-skies
+        run: python tools/build_commits.py source/winner-app source/football-cage source/path source/afterburn-skies source/walk
 
       - name: Сохранить изменения
         shell: bash
