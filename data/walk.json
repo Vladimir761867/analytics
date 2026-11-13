@@ -207,6 +207,62 @@
    "status": "Ждёт",
    "owner": "Вы",
    "note": ""
+  },
+  {
+   "app": "Прогулка",
+   "store": "Разработка",
+   "task": "Звук: исправлено включение на телефонах, громкость выше в 2,5–4 раза",
+   "status": "Готово",
+   "owner": "Claude",
+   "note": "проверить на вашем телефоне"
+  },
+  {
+   "app": "Прогулка",
+   "store": "Разработка",
+   "task": "Путешествия: концепция, 30 зверей, открытия, макеты",
+   "status": "Готово",
+   "owner": "Claude",
+   "note": "docs/ПУТЕШЕСТВИЯ.md"
+  },
+  {
+   "app": "Прогулка",
+   "store": "Разработка",
+   "task": "Утвердить путешествия, имена 10 новых друзей и 70 реплик",
+   "status": "Сделать",
+   "owner": "Вы",
+   "note": "docs/РЕПЛИКИ_НОВЫЕ.md, 8 вопросов в конце ПУТЕШЕСТВИЙ"
+  },
+  {
+   "app": "Прогулка",
+   "store": "Разработка",
+   "task": "v1.1: по 3 раунда на остановках Луга, карта мира, «Открытие!»",
+   "status": "Ждёт",
+   "owner": "Claude",
+   "note": "после утверждения"
+  },
+  {
+   "app": "Прогулка",
+   "store": "Разработка",
+   "task": "v1.1: Книга друзей и Мой Луг (подарки, расстановка)",
+   "status": "Ждёт",
+   "owner": "Claude",
+   "note": ""
+  },
+  {
+   "app": "Прогулка",
+   "store": "Разработка",
+   "task": "v1.1: Ночной лес и Речка (10 новых зверей, поворот фонарика и течения)",
+   "status": "Ждёт",
+   "owner": "Claude",
+   "note": ""
+  },
+  {
+   "app": "Прогулка",
+   "store": "Разработка",
+   "task": "v1.2 Горы, v1.3 Зима, v1.4 Море (по 4 зверя)",
+   "status": "Ждёт",
+   "owner": "Claude",
+   "note": "обновления после выпуска"
   }
  ],
  "links": [
@@ -359,6 +415,74 @@
    "title": "Собери его мир, планшет",
    "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/",
    "img": "img/walk/t_build_world.webp"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Документ",
+   "title": "Путешествия и новые звери",
+   "url": "https://github.com/Vladimir761867/To-Each-Their-Own-A-Big-Walk/blob/main/docs/ПУТЕШЕСТВИЯ.md"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Документ",
+   "title": "Новые реплики (на утверждение)",
+   "url": "https://github.com/Vladimir761867/To-Each-Their-Own-A-Big-Walk/blob/main/docs/РЕПЛИКИ_НОВЫЕ.md"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Макет",
+   "title": "Карта мира: путешествия",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
+   "img": "img/walk/p_j_world.webp"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Макет",
+   "title": "Ночной лес: маршрут",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
+   "img": "img/walk/p_j_routenight.webp"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Макет",
+   "title": "Ночной лес: ищем лучом фонарика",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
+   "img": "img/walk/p_j_twistnight.webp"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Макет",
+   "title": "Речка: ловим плывущие вещи",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
+   "img": "img/walk/p_j_twistriver.webp"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Макет",
+   "title": "Открытие: новый друг",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
+   "img": "img/walk/p_j_disc_friend.webp"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Макет",
+   "title": "Книга друзей",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
+   "img": "img/walk/p_j_book.webp"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Макет",
+   "title": "Мой Луг",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
+   "img": "img/walk/p_j_garden.webp"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Макет",
+   "title": "Карта мира, ландшафт",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
+   "img": "img/walk/l_j_world.webp"
   }
  ],
  "schedule": [
@@ -384,6 +508,30 @@
    "start": "2026-11-17",
    "end": "2026-11-20",
    "status": "Оценка",
+   "basis": "оценка"
+  },
+  {
+   "app": "Прогулка",
+   "phase": "Прогулка: путешествия, концепция и макеты",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "status": "Готово",
+   "basis": "факт по коммитам"
+  },
+  {
+   "app": "Прогулка",
+   "phase": "Прогулка: v1.1 (3 раунда, карта мира, Ночной лес, Речка)",
+   "start": "2026-11-15",
+   "end": "2026-11-18",
+   "status": "План",
+   "basis": "оценка"
+  },
+  {
+   "app": "Прогулка",
+   "phase": "Прогулка: v1.2 Горы, v1.3 Зима, v1.4 Море",
+   "start": "2026-11-19",
+   "end": "2026-12-10",
+   "status": "План",
    "basis": "оценка"
   }
  ],
