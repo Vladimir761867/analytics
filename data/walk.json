@@ -35,6 +35,14 @@
   {
    "app": "Прогулка",
    "store": "Разработка",
+   "task": "Ручное прохождение: удобство и понятность, правки",
+   "status": "Готово",
+   "owner": "Claude",
+   "note": "текст цели крупнее, рука-подсказка при простое, иконки, подписи"
+  },
+  {
+   "app": "Прогулка",
+   "store": "Разработка",
    "task": "Утвердить мир, имя собачки и стиль персонажей",
    "status": "Готово",
    "owner": "Вы",
@@ -44,15 +52,15 @@
    "app": "Прогулка",
    "store": "Разработка",
    "task": "Игра на одном HTML-файле: карта, 7 остановок, праздник",
-   "status": "Сделать",
+   "status": "Готово",
    "owner": "Claude",
-   "note": "в работе"
+   "note": ""
   },
   {
    "app": "Прогулка",
    "store": "Разработка",
    "task": "Пять механик: хозяин, звук, собери его мир, талант, общее дело",
-   "status": "Сделать",
+   "status": "Готово",
    "owner": "Claude",
    "note": ""
   },
@@ -60,7 +68,7 @@
    "app": "Прогулка",
    "store": "Разработка",
    "task": "Звуки и голоса животных кодом, музыка прогулки",
-   "status": "Сделать",
+   "status": "Готово",
    "owner": "Claude",
    "note": ""
   },
@@ -68,7 +76,7 @@
    "app": "Прогулка",
    "store": "Разработка",
    "task": "Альбом наклеек и поощрение без проигрыша",
-   "status": "Сделать",
+   "status": "Готово",
    "owner": "Claude",
    "note": ""
   },
@@ -76,7 +84,7 @@
    "app": "Прогулка",
    "store": "Разработка",
    "task": "Любые экраны: safe-area, портрет и ландшафт, кнопки ≥ 64 px",
-   "status": "Сделать",
+   "status": "Готово",
    "owner": "Claude",
    "note": ""
   },
@@ -84,15 +92,15 @@
    "app": "Прогулка",
    "store": "Разработка",
    "task": "11 языков интерфейса и озвучка подсказок",
-   "status": "Сделать",
+   "status": "Готово",
    "owner": "Claude",
-   "note": ""
+   "note": "9 языков проверить носителями"
   },
   {
    "app": "Прогулка",
    "store": "Разработка",
    "task": "Раздел «Родителям» за шлюзом, сброс прогресса, без сети",
-   "status": "Сделать",
+   "status": "Готово",
    "owner": "Claude",
    "note": ""
   },
@@ -100,41 +108,41 @@
    "app": "Прогулка",
    "store": "Разработка",
    "task": "Бот-прохождение и проверка читаемости на телефоне",
-   "status": "Ждёт",
+   "status": "Готово",
    "owner": "Claude",
-   "note": "после игры"
+   "note": ""
   },
   {
    "app": "Прогулка",
    "store": "Разработка",
    "task": "Проверить игру с ребёнком 3–6 лет",
-   "status": "Ждёт",
+   "status": "Сделать",
    "owner": "Вы",
-   "note": "после первой версии"
+   "note": "игра готова — ссылка «Играть в браузере»"
   },
   {
    "app": "Прогулка",
    "store": "Разработка",
    "task": "Проекты для Android и iOS (Capacitor)",
-   "status": "Ждёт",
+   "status": "Готово",
    "owner": "Claude",
-   "note": ""
+   "note": "конфиг и иконки готовы; сборка APK/AAB — по capacitor/README.md"
   },
   {
    "app": "Прогулка",
    "store": "RuStore",
    "task": "Возраст 0+, карточка и описание",
-   "status": "Ждёт",
+   "status": "Готово",
    "owner": "Claude",
-   "note": ""
+   "note": "docs/STORE_LISTING.md, docs/GOOGLE_PLAY_FAMILIES.md"
   },
   {
    "app": "Прогулка",
    "store": "RuStore",
    "task": "Иконка и скриншоты",
-   "status": "Ждёт",
+   "status": "Готово",
    "owner": "Claude",
-   "note": ""
+   "note": "store/screens/ 1290×2796"
   },
   {
    "app": "Прогулка",
@@ -156,17 +164,17 @@
    "app": "Прогулка",
    "store": "Google Play",
    "task": "Чек-лист Families и анкета «Для детей»",
-   "status": "Ждёт",
+   "status": "Готово",
    "owner": "Claude",
-   "note": ""
+   "note": "docs/STORE_LISTING.md, docs/GOOGLE_PLAY_FAMILIES.md"
   },
   {
    "app": "Прогулка",
    "store": "Google Play",
    "task": "Карточка и скриншоты для Google Play",
-   "status": "Ждёт",
+   "status": "Готово",
    "owner": "Claude",
-   "note": ""
+   "note": "store/screens/ 1290×2796"
   },
   {
    "app": "Прогулка",
@@ -180,9 +188,9 @@
    "app": "Прогулка",
    "store": "App Store",
    "task": "Карточка Kids Category и скриншоты",
-   "status": "Ждёт",
+   "status": "Готово",
    "owner": "Claude",
-   "note": ""
+   "note": "store/screens/ 1290×2796"
   },
   {
    "app": "Прогулка",
@@ -202,6 +210,12 @@
   }
  ],
  "links": [
+  {
+   "app": "Прогулка",
+   "kind": "Тест",
+   "title": "Играть в браузере",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/"
+  },
   {
    "app": "Прогулка",
    "kind": "Тест",
@@ -240,66 +254,111 @@
   },
   {
    "app": "Прогулка",
+   "kind": "Документ",
+   "title": "Карточки магазинов",
+   "url": "https://github.com/Vladimir761867/To-Each-Their-Own-A-Big-Walk/blob/main/docs/STORE_LISTING.md"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Документ",
+   "title": "Чек-лист Families / Kids",
+   "url": "https://github.com/Vladimir761867/To-Each-Their-Own-A-Big-Walk/blob/main/docs/GOOGLE_PLAY_FAMILIES.md"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Документ",
+   "title": "Авторство",
+   "url": "https://github.com/Vladimir761867/To-Each-Their-Own-A-Big-Walk/blob/main/docs/АВТОРСТВО.md"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Документ",
+   "title": "Локализация",
+   "url": "https://github.com/Vladimir761867/To-Each-Their-Own-A-Big-Walk/blob/main/docs/ЛОКАЛИЗАЦИЯ.md"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Макет",
+   "title": "Меню",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/",
+   "img": "img/walk/p_menu.webp"
+  },
+  {
+   "app": "Прогулка",
    "kind": "Макет",
    "title": "Цель прогулки",
-   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/",
    "img": "img/walk/p_intro.webp"
   },
   {
    "app": "Прогулка",
    "kind": "Макет",
    "title": "Карта-маршрут",
-   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/",
    "img": "img/walk/p_map.webp"
   },
   {
    "app": "Прогулка",
    "kind": "Макет",
-   "title": "Карта-маршрут, ландшафт",
-   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
-   "img": "img/walk/l_map.webp"
-  },
-  {
-   "app": "Прогулка",
-   "kind": "Макет",
    "title": "Найди владельца: добрый ответ",
-   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
-   "img": "img/walk/p_stop1_kind.webp"
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/",
+   "img": "img/walk/p_find_kind.webp"
   },
   {
    "app": "Прогулка",
    "kind": "Макет",
-   "title": "Собери его мир (Боня)",
-   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
-   "img": "img/walk/p_stop4_world.webp"
+   "title": "Угадай по звуку",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/",
+   "img": "img/walk/p_sound.webp"
   },
   {
    "app": "Прогулка",
    "kind": "Макет",
-   "title": "Собери его мир: добрый ответ, планшет",
-   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
-   "img": "img/walk/t_stop4_kind.webp"
+   "title": "У каждого свой талант",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/",
+   "img": "img/walk/p_talent_kind.webp"
   },
   {
    "app": "Прогулка",
    "kind": "Макет",
-   "title": "Общее дело (Тук)",
-   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
-   "img": "img/walk/p_stop7.webp"
+   "title": "Собери его мир",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/",
+   "img": "img/walk/p_build_world.webp"
   },
   {
    "app": "Прогулка",
    "kind": "Макет",
-   "title": "Праздник: каждый приносит своё",
-   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
+   "title": "Общее дело",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/",
+   "img": "img/walk/p_together.webp"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Макет",
+   "title": "Праздник",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/",
    "img": "img/walk/p_fest_show.webp"
   },
   {
    "app": "Прогулка",
    "kind": "Макет",
    "title": "Альбом «Что я узнал»",
-   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/",
    "img": "img/walk/p_album.webp"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Макет",
+   "title": "Карта, ландшафт",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/",
+   "img": "img/walk/l_map.webp"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Макет",
+   "title": "Собери его мир, планшет",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/",
+   "img": "img/walk/t_build_world.webp"
   }
  ],
  "schedule": [
@@ -313,11 +372,11 @@
   },
   {
    "app": "Прогулка",
-   "phase": "Прогулка: игра, 5 механик, звук, языки",
-   "start": "2026-11-14",
-   "end": "2026-11-16",
-   "status": "Оценка",
-   "basis": "оценка"
+   "phase": "Прогулка: игра v1.0, 5 механик, звук, 11 языков",
+   "start": "2026-11-13",
+   "end": "2026-11-13",
+   "status": "Готово",
+   "basis": "факт по коммитам"
   },
   {
    "app": "Прогулка",
