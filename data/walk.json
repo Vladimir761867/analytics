@@ -19,10 +19,18 @@
   {
    "app": "Прогулка",
    "store": "Разработка",
+   "task": "Правки по макетам: цель прогулки, карта-маршрут, праздник-итог, «Собери его мир», добрые ответы",
+   "status": "Готово",
+   "owner": "Claude",
+   "note": ""
+  },
+  {
+   "app": "Прогулка",
+   "store": "Разработка",
    "task": "Утвердить мир, имя собачки и стиль персонажей",
    "status": "Сделать",
    "owner": "Вы",
-   "note": "посмотреть макеты и написать правки"
+   "note": "правки 13.11 внесены: цель, маршрут, праздник-итог, добрые ответы"
   },
   {
    "app": "Прогулка",
@@ -35,7 +43,7 @@
   {
    "app": "Прогулка",
    "store": "Разработка",
-   "task": "Пять механик: хозяин, звук, собери героя, талант, общее дело",
+   "task": "Пять механик: хозяин, звук, собери его мир, талант, общее дело",
    "status": "Сделать",
    "owner": "Claude",
    "note": ""
@@ -212,38 +220,51 @@
   },
   {
    "app": "Прогулка",
-   "kind": "Макет",
-   "title": "Меню",
-   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
-   "img": "img/walk/p_menu.webp"
+   "kind": "Документ",
+   "title": "Политика конфиденциальности",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/privacy.html"
   },
   {
    "app": "Прогулка",
    "kind": "Макет",
-   "title": "Карта прогулки",
+   "title": "Цель прогулки",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
+   "img": "img/walk/p_intro.webp"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Макет",
+   "title": "Карта-маршрут",
    "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
    "img": "img/walk/p_map.webp"
   },
   {
    "app": "Прогулка",
    "kind": "Макет",
-   "title": "Найди владельца (Тика)",
+   "title": "Карта-маршрут, ландшафт",
    "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
-   "img": "img/walk/p_stop1.webp"
+   "img": "img/walk/l_map.webp"
   },
   {
    "app": "Прогулка",
    "kind": "Макет",
-   "title": "Собери героя (Боня), ландшафт",
+   "title": "Найди владельца: добрый ответ",
    "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
-   "img": "img/walk/l_stop2.webp"
+   "img": "img/walk/p_stop1_kind.webp"
   },
   {
    "app": "Прогулка",
    "kind": "Макет",
-   "title": "У каждого свой талант (Шелли), планшет",
+   "title": "Собери его мир (Боня)",
    "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
-   "img": "img/walk/t_stop4.webp"
+   "img": "img/walk/p_stop4_world.webp"
+  },
+  {
+   "app": "Прогулка",
+   "kind": "Макет",
+   "title": "Собери его мир: добрый ответ, планшет",
+   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
+   "img": "img/walk/t_stop4_kind.webp"
   },
   {
    "app": "Прогулка",
@@ -255,22 +276,16 @@
   {
    "app": "Прогулка",
    "kind": "Макет",
-   "title": "Праздник",
+   "title": "Праздник: каждый приносит своё",
    "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
-   "img": "img/walk/p_fest.webp"
+   "img": "img/walk/p_fest_show.webp"
   },
   {
    "app": "Прогулка",
    "kind": "Макет",
-   "title": "Альбом наклеек",
+   "title": "Альбом «Что я узнал»",
    "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/mockups/",
    "img": "img/walk/p_album.webp"
-  },
-  {
-   "app": "Прогулка",
-   "kind": "Документ",
-   "title": "Политика конфиденциальности",
-   "url": "https://vladimir761867.github.io/To-Each-Their-Own-A-Big-Walk/privacy.html"
   }
  ],
  "schedule": [
